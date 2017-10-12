@@ -1,26 +1,37 @@
 body {
-  background-color: lightgrey; }
+  background-color: #ffc987; }
+  body .current-score {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    z-index: 50; }
   body #container {
     position: absolute;
     bottom: 0px;
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    width: 100%;
-    height: 100px; }
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    top: 0;
+    left: 0;
+    right: 0; }
     body #container .cubic {
       bottom: 0px;
-      background-color: black;
-      margin: 0px 20px;
-      height: 200px;
+      background-color: #ff8d87;
+      margin-right: 60px;
+      margin-left: 180px;
+      height: 100px;
       width: 200px;
-      -webkit-border-top-left-radius: 50%;
-      -webkit-border-top-right-radius: 50%;
-      -moz-border-radius-topleft: 50%;
-      -moz-border-radius-topright: 50%;
-      border-top-left-radius: 50%;
-      border-top-right-radius: 50%;
+      -webkit-border-top-left-radius: 50px;
+      -webkit-border-top-right-radius: 50px;
+      -moz-border-radius-topleft: 50px;
+      -moz-border-radius-topright: 50px;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
       position: relative; }
       body #container .cubic .eye1 {
         position: absolute;
@@ -84,5 +95,13 @@ body {
         border-radius: 10px; }
         body .overflow .good-game button:focus {
           outline: 0; }
+  body .deadline {
+    position: absolute;
+    z-index: 20;
+    bottom: 550px;
+    width: 100%;
+    left: 0;
+    background: #87e5ff;
+    height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
