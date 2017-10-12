@@ -32,7 +32,7 @@ function growMinion(){
     minion2.style.height = minion2.offsetHeight + 10 + 'px';
     minion3.style.height = minion3.offsetHeight + 10 + 'px';
     growMinion();
-  }, 100);
+  }, 60);
 }
 
 function smashMinions(minion){

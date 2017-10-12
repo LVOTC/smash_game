@@ -6,7 +6,7 @@ body {
     right: 20px;
     top: 20px;
     font-weight: bold;
-    color: black;
+    color: #fff;
     font-size: 36px;
     z-index: 50; }
   body #container {
@@ -66,13 +66,15 @@ body {
       top: 50%;
       margin-top: -100px;
       text-align: center;
-      background: #fff;
-      border: 1px solid black;
+      background: #87e5ff;
+      border: 1px solid #fff;
       padding-top: 20px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      color: #fff; }
       body .overflow .start-game button {
         padding: 20px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        background-color: #fff; }
         body .overflow .start-game button:focus {
           outline: 0; }
     body .overflow .good-game {
@@ -86,13 +88,15 @@ body {
       top: 50%;
       margin-top: -100px;
       text-align: center;
-      background: #fff;
-      border: 1px solid black;
+      background: #ff8d87;
+      border: 1px solid #fff;
       padding-top: 20px;
-      border-radius: 5px; }
+      border-radius: 5px;
+      color: #fff; }
       body .overflow .good-game button {
         padding: 20px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        background-color: #fff; }
         body .overflow .good-game button:focus {
           outline: 0; }
   body .deadline {
