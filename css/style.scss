@@ -124,5 +124,18 @@ body{
     background: #87e5ff;
     height: 100%;
   }
+  .level{
+    position: absolute;
+    font-size: 40px;
+    color: #000;
+    z-index: 99;
+    display: none;
+    left: 50px;
+    top: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+    z-index: 50;
+  }
 
 }
